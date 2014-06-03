@@ -1,0 +1,41 @@
+{
+  "name": "test",
+  "version": "1.0.1",
+  "description": "The test project for spmjs.",
+  "homepage": "https://github.com/afc163/test",
+  "author": "afc163 <afc163@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afc163/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/afc163/test/issues"
+  },
+  "keywords": [
+    "example"
+  ],
+  "devDependencies": {
+    "spm": "^3.0.0"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "moment": "2.6.0",
+      "jquery": "2.1.0",
+      "lodash": "2.4.1"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    },
+    "buildArgs": "--include standalone",
+    "ignore": ["docs"],
+    "tests": "tests/*.js"
+  },
+  "dependencies": {
+    "arale": "^0.2.0"
+  }
+}
