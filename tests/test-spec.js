@@ -1,4 +1,4 @@
-var expect = require('expect');
+var expect = require('expect.js');
 var test = require('../index');
 
 describe('test', function() {
